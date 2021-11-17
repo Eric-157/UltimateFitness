@@ -3,15 +3,41 @@
 <meta name='viewport' content='width=device-width, intital-scale=1.0'>
 <html>
     <head>
-        <title>The Ultimate Fintess Health and Fitness Center</title>
+        <title>Ultimate Fitness: Affordable Membership Plans</title>
         <link rel="stylesheet" href="style.css">
         <script src="javascript.js"></script>
+        <style>
+            table {
+                border-collapse: collapse;
+                margin-top:20px;
+            }
+
+            th {
+                border: 1px solid black;
+                text-align: center;
+                vertical-align: center;
+            }
+
+            tr:nth-child(odd) {
+                background-color: lightblue;
+            }
+
+            tr:nth-child(even) {
+                background-color: #12345a;
+                color: white;
+            }
+
+            tr:hover {
+                background-color: rgb(40, 54, 99);
+                color: white;
+            }
+        </style>
     </head>
 
     <body>
         <nav>
             <div class="drop-down">
-                <button onclick="button_press()"></button>
+                <button onclick="button_press()" id="button"></button>
                 <div id="drop-down_content">
                     <a href="index.html">Home</a>
                     <a href="Facilities.html">Facilities</a>
@@ -24,7 +50,7 @@
                 </div>
             </div>
             <img src="uf_images\logo.jpg">
-            <a href=""> <img src="uf_images\member_specials.png"></a>
+            <a href="Member_Plans.html"> <img src="uf_images\member_specials.png"></a>
             <div class="navcontainer">
                 <div class="text">
                     <h3>The Ultimate Ftiness and Health Center</h3>
@@ -44,7 +70,53 @@
         </nav>
         
         <main>
-            
+            <div>
+                <h1>Ultimate Fitness had Membership Plans Available to Meet Any Budget</h1>
+                <p>Ultimate Fitness is Dedicated to meeting your fitness goals. We offer several membership plans that are flexible and competitively priced to meet most budgets. With our try-before-you-buy specials, you can try Ultimate Fitness before committing to any membership plan.</p>
+            </div>
+            <div>
+                <h1>Ultimate Fitness Offers Four Convenient Membership Plans</h1>
+                <table>
+                    <tr>
+                        <th>Plan</th>
+                        <th>Description</th>
+                        <th>Price</th>
+                    </tr>
+                    <tr>
+                        <th>Monthly Plan</th>
+                        <th>Pay your membership dues monthly and enjoy all the amenities and facilities at Ultimate Fitness.</th>
+                        <th>$35.99 / month</th>
+                    </tr>
+                    <tr>
+                        <th>Weekdays-Only Plan</th>
+                        <th>Pay your membership dues monthly and enjoy all the amenities and facilities at Ultimate Fitness Monday through Friday only. Perfect if you do not plan to train on the weekends.</th>
+                        <th>$29.99 / month</th>
+                    </tr>
+                    <tr>
+                        <th>Six Month Plan</th>
+                        <th>Join Ultimate Fitness for six months and save over 30% off of the monthly membership fee.</th>
+                        <th>$149.00 / six months</th>
+                    </tr>
+                    <tr>
+                        <th>Yearly Plan</th>
+                        <th>Join Ultimate Fitness for one year and save over 40% off of the monthly membership fee.</th>
+                        <th>$249.99 / year</th>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <img src="uf_images\VIP1Img.png">
+            </div>
+            <div>
+                <img src="uf_images\VIP2Img.png">
+            </div>
+            <div>
+                <p>Have a question about joining Ultimate Fitness?</p>
+                <p>Please see our Contact Us page to find ouy how to reach us or call 1.888.757.4856.</p>
+            </div>
+            <div>
+                <img src="uf_images\MemberImg.jpg">
+            </div>
         </main>
 
         <footer>
