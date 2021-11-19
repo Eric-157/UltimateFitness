@@ -110,8 +110,6 @@ main {
 }
 
 main div {
-    justify-self: center;
-    align-self: center;
     margin: 2vw;
 }
 
