@@ -3,9 +3,45 @@
 <meta name='viewport' content='width=device-width, intital-scale=1.0'>
 <html>
     <head>
-        <title>The Ultimate Fintess Health and Fitness Center</title>
+        <title>Ultimate Fitness: Schedule of Classes</title>
         <link rel="stylesheet" href="style.css">
         <script src="javascript.js"></script>
+        
+        <style>
+            .grid_container {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+                border: solid 1px black
+            }
+
+            .grid_container div {
+                font-size: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                border: solid 1px black;
+                padding: 5px;
+            }
+
+            .grid_container div:nth-child(-n+8) {
+                font-weight: bolder;
+            }
+
+            .grid_container div:nth-child(even) {
+                background-color: #12345a;
+                color: white;
+            }
+
+            .grid_container div:nth-child(odd) {
+                background-color: lightblue;
+            }
+
+            .grid_container div:hover {
+                background-color: rgb(40, 54, 99);
+                color: white;
+            }
+        </style>
     </head>
 
     <body>
@@ -44,7 +80,93 @@
         </nav>
         
         <main>
-            
+            <div>
+                <h1>The Ultimate Fitness Class Schedule</h1>
+                <p>Included on this page is our weekly aerobic, cardio, and personal training schedule. Our schedule is updated monthly, so please check this page often for updates.</p>
+            </div>
+            <div class="grid_container">
+                <!-- row 1 -->
+                <div>Time</div>
+                <div>Monday</div>
+                <div>Tuesday</div>
+                <div>Wednesday</div>
+                <div>Thursday</div>
+                <div>Friday</div>
+                <div>Saturday</div>
+                <div>Sunday</div>
+                <!-- row 2 -->
+                <div>7:00 - 8:00 a.m.</div>
+                <div>Low-Impact Aerobics</div>
+                <div>Total Yoga</div>
+                <div>Trekking</div>
+                <div>Low-Impact Aerobics</div>
+                <div>Total Yoga</div>
+                <div>X</div>
+                <div>X</div>
+                <!-- row 3 -->
+                <div>8:00 - 9:00 a.m.</div>
+                <div>Trekking</div>
+                <div>Cardio Kickboxing</div>
+                <div>Aerobic Hip-hop Dancing</div>
+                <div>Total Yoga</div>
+                <div>Cardio Kickboxing</div>
+                <div>Trekking</div>
+                <div>Low-Impact Aerobics</div>
+                <!-- row 4 -->
+                <div>9:00 - 10:00 a.m.</div>
+                <div>Total Yoga</div>
+                <div>Spinning</div>
+                <div>Trekking</div>
+                <div>Aerobic Hip-hop Dancing</div>
+                <div>Spinning</div>
+                <div>Cardio Kickboxing</div>
+                <div>Trekking</div>
+                <!-- row 5 -->
+                <div>10:00 - 11:00 a.m.</div>
+                <div>High-Impact Aerobics</div>
+                <div>Power Up Pump</div>
+                <div>Total Yoga</div>
+                <div>Power Up Pump</div>
+                <div>Aerobic Hip-hop Dancing</div>
+                <div>Spinning</div>
+                <div>Pilates</div>
+                <!-- row 6 -->
+                <div>4:00 - 5:00 p.m.</div>
+                <div>Aerobic Hip-hop Dancing</div>
+                <div>Power Up Pump</div>
+                <div>Total Yoga</div>
+                <div>Trekking</div>
+                <div>Total Yoga</div>
+                <div>Aerobic Hip-hop Dancing</div>
+                <div>Cardio Kickboxing</div>
+                <!-- row 7 -->
+                <div>5:00 - 6:00 p.m.</div>
+                <div>High-Impact Aerobics</div>
+                <div>Power Up Pump</div>
+                <div>Cardio Kickboxing</div>
+                <div>High-Impact Aerobics</div>
+                <div>Cardio Kickboxing</div>
+                <div>Power Up Pump</div>
+                <div>X</div>
+                <!-- row 8 -->
+                <div>6:00 - 7:00 p.m.</div>
+                <div>Pilates</div>
+                <div>Cardio Kickboxing</div>
+                <div>Aerobic Hip-hop Dancing</div>
+                <div>Pilates</div>
+                <div>Power Up Pump</div>
+                <div>X</div>
+                <div>X</div>
+                <!-- row 9 -->
+                <div>7:00 - 8:00 p.m.</div>
+                <div>Trekking</div>
+                <div>Low-Impact Aerobics</div>
+                <div>Cardio Kickboxing</div>
+                <div>Cardio Kickboxing</div>
+                <div>High-Impact Aerobics</div>
+                <div>X</div>
+                <div>X</div>
+            </div>
         </main>
 
         <footer>
